@@ -1,14 +1,22 @@
-class PrintHelloWorld:
+def printhw():
+    print('Hello World!')
+
+    pass
+
+
+class Product:
     """
     class này sẽ in ra 'Hello World!'
     """
 
     def __init__(self):
-        """ print 'Hello World!' """
+        self.a, self.b = [], {}
 
         pass
 
-    def printhw(self):
-        print('Hello World!')
+    def get_sum(self):
+        print(self.a + self.b)
 
         pass
+
+    price = 100
